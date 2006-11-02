@@ -1,0 +1,24 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Sub-ScopeFinalizer
+version:      0.01
+version_from: lib/Sub/ScopeFinalizer.pm
+installdirs:  site
+author:       YAMASHINA Hio <hio@cpan.org>
+abstract: execute a code on exiting scope.
+#requires:
+no_index:
+  directory:
+    - example
+    - inc
+    - t
+build_requires:
+  Test::Exception: 0
+  Test::More: 0
+lisence: perl
+
+distribution_type: module
+generated_by: ExtUtils::MY_Metafile version 0.04
+meta-spec:
+  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
