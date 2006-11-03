@@ -4,13 +4,11 @@ use ExtUtils::MakeMaker;
 use inc::ExtUtils::MY_Metafile;
 
 my_metafile 'Sub::ScopeFinalizer' => {
-	lisence => 'perl',
-	
+	license => 'perl',
 	requires => {
 	},
 	build_requires => {
 		'Test::More'      => 0,
-		'Test::Exception' => 0,
 	},
 };
 

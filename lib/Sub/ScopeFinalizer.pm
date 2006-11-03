@@ -5,7 +5,7 @@
 #
 # Copyright 2006 YAMASHINA Hio
 # -----------------------------------------------------------------------------
-# $Id: /perl/Sub-ScopeFinalizer/lib/Sub/ScopeFinalizer.pm 190 2006-11-02T16:17:30.530381Z hio  $
+# $Id: /perl/Sub-ScopeFinalizer/lib/Sub/ScopeFinalizer.pm 202 2006-11-03T10:24:44.000948Z hio  $
 # -----------------------------------------------------------------------------
 package Sub::ScopeFinalizer;
 use strict;
@@ -14,7 +14,7 @@ use base qw(Exporter);
 
 our @EXPORT_OK = qw(scope_finalizer);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
 
@@ -101,7 +101,7 @@ Sub::ScopeFinalizer - execute a code on exiting scope.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 
 =head1 SYNOPSIS
